@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.header{
+ background-image: url("../images/christmas.jpg");
+ background-size: cover;
+ min-height: 100vh;
+ background-position: center;
+}
+
+.header__top{
+    display: flex;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    height: 100%;
+    align-items: center;
+}
+
+.menu__list{
+    margin-left: 30px;
+}
+
+.menu__list-link{
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    letter-spacing: 1.7px;
+    
+}
+
+.header__title{
+    font-size: 72px;
+    line-height: 84px;
+    color: blueviolet;
+    text-align: center;
+    margin-top: 250px;
+}
+
+.header__subtitle{
+    font-size: 48px;
+    line-height: 54px;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+    color: blue;
+}
+
+.wrapper{
+    text-align: center;
+}
+
+.countdown__timer{
+    display: flex;
+    justify-content: center;
+
+}
+
+.timer{
+    margin-left: 30px;
+    background-color: white;
+    width: 80px;
+    height: 50px;
+    padding: 10px 0;
+    margin-top: 30px;
+    /* border-radius: 50%; */
+}
+
+.wrapper__title-timer{
+    font-size: 40px;
+    color: blue;
+}
+
